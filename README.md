@@ -25,10 +25,11 @@ R scripts (see each script for individual goals, notes, dates the script was wri
 10.1_density_response_curves_supmat
   
 Data included here:  
-Input_locs_extracted_vars: Separated into folders for each species. Within each species folder there are three csv files (one for each study extent). The csv file has species scientific name, type (1=presence), and the extracted values of the climate variables used in the model under each presence point. **NOTE:** Due to data sharing agreements with various government agencies and researchers we are unable to share the lat and long locations of the input localities. 
+Input_locs_extracted_vars: Separated into folders for each species. Within each species folder there are three csv files (one for each study extent). The csv file has species scientific name, type (1=presence), and the extracted values of the climate variables used in the model under each presence point. **NOTE:** Due to data sharing agreements with various government agencies and researchers we are unable to share the lat and long locations of the input localities.   
 
-Maxent_outputs: There are two folders 1) Models, 2) Prediction_surfaces. Within the "Models" folder there is the saved model object file for each Maxent model that the prediction surfaces were based off. Within the "Prediction_surfaces" folder there is the saved TIFF files for the logistic prediction surfaces for each model. 
+Maxent_outputs: There are two folders 1) Models, 2) Prediction_surfaces. Within the "Models" folder there is the saved model object file for each Maxent model that the prediction surfaces were based off. Within the "Prediction_surfaces" folder there is the saved TIFF files for the logistic prediction surfaces for each model.   
 
-Study_extent_shp: Separated itno folders for each species. Within each species folder there are the shape files for each study extent used to generate the models. 
+Study_extent_shp: Separated itno folders for each species. Within each species folder there are the shape files for each study extent used to generate the models.   
 
-**NOTE:** Climate variables were downloaded from Climate NA using the climate normals of 1991-2020 period (https://adaptwest.databasin.org/pages/adaptwest-climatena/)
+**NOTE:** Climate variables were downloaded from Climate NA using the climate normals of 1991-2020 period  
+ (https://adaptwest.databasin.org/pages/adaptwest-climatena/)
