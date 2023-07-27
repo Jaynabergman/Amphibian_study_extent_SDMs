@@ -21,8 +21,7 @@ R scripts (see each script for individual goals, notes, dates the script was wri
 8.1_determine_binary_threshold  
 8.2_binary_surface_counts  
 9.1_summed_binary_surfaces  
-9.2_summed_binary_surface_counts
-
+9.2_summed_binary_surface_counts  
 10.1_density_response_curves_supmat
   
 Data included here:  
