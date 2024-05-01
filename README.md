@@ -1,9 +1,8 @@
 # Amphibian SDMs testing study extent
 ## Background
 
-## Folders
-RScripts:  
-Scripts include preprocessing data, generating models, and post processing data. All scripts are numbered in the order that they were originally ran.  
+### RScripts  
+R scripts include preprocessing data, generating models, and post processing data. All scripts are numbered in the order that they were ran.  
   
 R scripts (see each script for individual goals, notes, dates the script was written):  
 1.1_reprojecting_all_rasters  
@@ -32,7 +31,7 @@ R scripts (see each script for individual goals, notes, dates the script was wri
 
 scripts_tgb (folder): scripts used to filter target-group background points (tgb) and generate models. These results are mainly included in the supmat. 
   
-Data included here:  
+### Data Included 
 Input_locs_extracted_vars: Separated into folders for each species. Within each species folder there are three csv files (one for each study extent). The csv file has species scientific name, type (1=presence), and the extracted values of the climate variables used in the model under each presence point. **NOTE:** Due to data sharing agreements with various government agencies and researchers we are unable to share the lat and long locations of the input localities.   
 
 Maxent_outputs: There are two folders 1) Models, 2) Prediction_surfaces. Within the "Models" folder there is the saved model object file for each Maxent model that the prediction surfaces were based off. Within the "Prediction_surfaces" folder there is the saved TIFF files for the logistic prediction surfaces for each model.   
