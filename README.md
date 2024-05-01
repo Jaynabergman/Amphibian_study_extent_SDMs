@@ -36,10 +36,10 @@ Input_locs_extracted_vars: Separated into folders for each species. Within each 
 
 Maxent_outputs: There are two folders 1) Models, 2) Prediction_surfaces. Within the "Models" folder there is the saved model object file for each Maxent model that the prediction surfaces were based off. Within the "Prediction_surfaces" folder there is the saved TIFF files for the logistic prediction surfaces for each model.   
 
-Study_extent_shp: Separated itno folders for each species. Within each species folder there are the shape files for each study extent used to generate the models.
-  Data sources: 
+Study_extent_shp: Separated itno folders for each species. Within each species folder there are the shape files for each study extent used to generate the models.  
+  Data sources:  
   Range - Downloaded from IUCN website (https://www.iucnredlist.org/species)
-  Ecoregion - Downloaded from https://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world
+   Ecoregion - Downloaded from https://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world
   Political - Downloaded from govenment of Alberta open data source (https://open.alberta.ca/opendata/gda-2ff5ba0c-951b-47ce-bf5f-787a727b3c92)
 
 **NOTE:** Climate variables were downloaded from Climate NA using the climate normals of 1991-2020 period  
