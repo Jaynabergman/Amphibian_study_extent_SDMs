@@ -1,5 +1,7 @@
-# Amphibian_study_extent_SDMs
-R script overview:  
+# Amphibian SDMs testing study extent
+## Background
+
+RScripts:  
 Scripts include preprocessing data, generating models, and post processing data. All scripts are numbered in the order that they were originally ran.  
   
 R scripts (see each script for individual goals, notes, dates the script was written):  
