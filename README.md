@@ -1,6 +1,7 @@
 # Amphibian SDMs testing study extent
 ## Background
 
+## Folders
 RScripts:  
 Scripts include preprocessing data, generating models, and post processing data. All scripts are numbered in the order that they were originally ran.  
   
@@ -25,6 +26,11 @@ R scripts (see each script for individual goals, notes, dates the script was wri
 9.1_summed_binary_surfaces  
 9.2_summed_binary_surface_counts  
 10.1_density_response_curves_supmat
+11.1_CBI_kfolds
+12.1_Stacked_study_extents
+12.2_stacked_study_extents_counts
+
+scripts_tgb (folder): scripts used to filter target-group background points (tgb) and generate models. These results are mainly included in the supmat. 
   
 Data included here:  
 Input_locs_extracted_vars: Separated into folders for each species. Within each species folder there are three csv files (one for each study extent). The csv file has species scientific name, type (1=presence), and the extracted values of the climate variables used in the model under each presence point. **NOTE:** Due to data sharing agreements with various government agencies and researchers we are unable to share the lat and long locations of the input localities.   
