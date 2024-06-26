@@ -11,9 +11,9 @@ R scripts (see each script for individual goals, notes, dates the script was wri
 2.2_cropping_rasters_to_range_study_extents (crops all environmental variables to the largest study extent, range-wide, for each species)    
 3.1_filtering_input_localities (filters the input presences for each species)  
 3.2_reprojecting_input_localities (projects the input presences into Albers Equal Area projection)    
-3.3_removing_duplicates_input_localities_dismo  
-3.4_removing_independent_data_from_input_localities  
-3.5_subsetting_input_localities  
+3.3_removing_duplicates_input_localities_dismo (uses the package dismo to remove input localities that fall within the same grid cell of the environmental variables)    
+3.4_removing_independent_data_from_input_localities (removes any presences that are within the same grid cell as the independent dataset)    
+3.5_subsetting_input_localities (subsets the input localities using the different study extents - i.e. political, ecoregion, range-wide)    
 #### Modelling (folder)
 4.1_tuning_features_regularization  
 5.1_extracting_envi_vars_values_under_input_localities  
