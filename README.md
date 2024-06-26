@@ -2,9 +2,9 @@
 ## Background
 
 ### RScripts  
-R scripts include preprocessing data, generating models, and post processing data. All scripts are numbered in the order that they were ran.  
+R scripts include pre-processing data, modelling, and post-processing data. All scripts are numbered in the order that they were ran (i.e. 1.1 through 12.1)    
   
-R scripts (see each script for individual goals, notes, dates the script was written):  
+R scripts (see each script for individual goals, notes, and dates the script was written):  
 #### Pre-processing (folder)
 1.1_reprojecting_all_rasters (projects all environmental variable rasters into Albers Equal Area projection)  
 2.1_reprojecting_study_extents (projects all study extent shapefiles into Albers Equal Area projection)  
@@ -15,7 +15,7 @@ R scripts (see each script for individual goals, notes, dates the script was wri
 3.4_removing_independent_data_from_input_localities (removes any presences that are within the same grid cell as the independent dataset)    
 3.5_subsetting_input_localities (subsets the input localities using the different study extents - i.e. political, ecoregion, range-wide)    
 #### Modelling (folder)
-4.1_tuning_features_regularization  
+4.1_tuning_features_regularization (using the package ENMeval the    
 5.1_extracting_envi_vars_values_under_input_localities  
 5.2_subsetting_kfolds  
 6.1_Maxent_Random_pts_kfolds  
