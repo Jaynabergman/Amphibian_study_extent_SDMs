@@ -7,7 +7,7 @@ R scripts include preprocessing data, generating models, and post processing dat
 R scripts (see each script for individual goals, notes, dates the script was written):  
 #### Pre-processing (folder)
 1.1_reprojecting_all_rasters (reprojects all environmental variable rasters into Albers Equal Area projection)  
-2.1_reprojecting_study_extents (reporjects all study extent shapefiles into Albers Equal Area projection)
+2.1_reprojecting_study_extents (reporjects all study extent shapefiles into Albers Equal Area projection)  
 2.2_cropping_rasters_to_range_study_extents  
 3.1_filtering_input_localities  
 3.2_reprojecting_input_localities  
