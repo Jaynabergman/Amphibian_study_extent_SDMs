@@ -5,7 +5,7 @@
 R scripts include preprocessing data, generating models, and post processing data. All scripts are numbered in the order that they were ran.  
   
 R scripts (see each script for individual goals, notes, dates the script was written):  
-#### Pre-processing
+#### Pre-processing (folder)
 1.1_reprojecting_all_rasters  
 2.1_reprojecting_study_extents  
 2.2_cropping_rasters_to_range_study_extents  
@@ -14,13 +14,13 @@ R scripts (see each script for individual goals, notes, dates the script was wri
 3.3_removing_duplicates_input_localities_dismo  
 3.4_removing_independent_data_from_input_localities  
 3.5_subsetting_input_localities  
-#### Modelling
+#### Modelling (folder)
 4.1_tuning_features_regularization  
 5.1_extracting_envi_vars_values_under_input_localities  
 5.2_subsetting_kfolds  
 6.1_Maxent_Random_pts_kfolds  
 6.2_Maxent_Random_pts_all_localities
-#### Post-processing
+#### Post-processing (folder)
 7.1_extract_continuous_surface_predictions_WLNP_sites  
 7.2_independent_AUC_WLNP  
 8.1_determine_binary_threshold  
