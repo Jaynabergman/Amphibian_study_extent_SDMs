@@ -15,9 +15,9 @@ R scripts (see each script for individual goals, notes, and dates the script was
 3.4_removing_independent_data_from_input_localities (removes any presences that are within the same grid cell as the independent dataset)    
 3.5_subsetting_input_localities (subsets the input localities using the different study extents - i.e. political, ecoregion, range-wide)    
 #### Modelling (folder)
-4.1_tuning_features_regularization (using the package ENMeval the    
-5.1_extracting_envi_vars_values_under_input_localities  
-5.2_subsetting_kfolds  
+4.1_tuning_features_regularization (using the package ENMeval, the regularization multiplier and the feature classes are optimalized for each model)      
+5.1_extracting_envi_vars_values_under_input_localities (The values of the environmental variables are extracted for each locality point and put into a csv for each model)    
+5.2_subsetting_kfolds (Subsets of the input localities are created to run kfolds at 80% training and 20% testing)    
 6.1_Maxent_Random_pts_kfolds  
 6.2_Maxent_Random_pts_all_localities
 #### Post-processing (folder)
