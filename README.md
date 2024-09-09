@@ -38,7 +38,9 @@ TGB_Scripts (sub folder): scripts used to filter target-group background points 
 ## Folders with the shared data
 
 ### Input_locs_extracted_vars (main folder)
-Separated into folders for each species. Within each species folder there are three csv files (one for each study extent). The csv file has species scientific name, type (1=presence), and the extracted values of the climate variables used in the model under each presence point. **NOTE:** Due to data sharing agreements with various government agencies and researchers we are unable to share the lat and long locations of the input localities.   
+Separated into folders for each species (BCFR, CATO, CSFR, LTSA, TISA, WETO).  \
+Within each species folder there are three csv files (one for each study extent). The csv file has species scientific name, type (1=presence), and the extracted values of the climate variables used in the model under each presence point.  \
+**NOTE:** Due to data sharing agreements with various government agencies and researchers we are unable to share the lat and long locations of the input localities.   
 
 ### Maxent_outputs (main folder)
 #### Models (sub folder)
@@ -47,7 +49,8 @@ Within the "Models" folder there is the saved model object file for each Maxent 
 Within the "Prediction_surfaces" folder there is the saved TIFF files for the logistic prediction surfaces for each model.   
 
 ### Study_extent_shp (main folder)
-Separated into folders for each species. Within each species folder there are the shape files for each study extent used to generate the models.    
+Separated into folders for each species (BCFR, CATO, CSFR, LTSA, TISA, WETO).  \
+Within each species folder there are the shape files for each study extent used to generate the models.    
   **Range** - Downloaded from IUCN website (https://www.iucnredlist.org/species)  
   **Ecoregion** - Downloaded from https://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world  
   **Political** - Downloaded from govenment of Alberta open data source (https://open.alberta.ca/opendata/gda-2ff5ba0c-951b-47ce-bf5f-787a727b3c92)  
