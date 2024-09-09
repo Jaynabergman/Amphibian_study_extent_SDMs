@@ -1,11 +1,11 @@
 # Amphibian SDMs testing study extent
 ## Background
 
-### RScripts  
+### RScripts (main folder)
 R scripts include pre-processing data, modelling, and post-processing data. All scripts are numbered in the order that they were ran (i.e. 1.1 through 12.1)    
   
 R scripts (see each script for individual goals, notes, and dates the script was written):  
-#### Pre-processing (folder)
+#### Pre-processing (sub folder)
 1.1_reprojecting_all_rasters (projects all environmental variable rasters into Albers Equal Area projection)  
 2.1_reprojecting_study_extents (projects all study extent shapefiles into Albers Equal Area projection)  
 2.2_cropping_rasters_to_range_study_extents (crops all environmental variables to the largest study extent, range-wide, for each species)    
