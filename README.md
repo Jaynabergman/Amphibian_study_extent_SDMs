@@ -35,7 +35,7 @@ R scripts (see each script for individual goals, notes, and dates the script was
 
 TGB_Scripts (sub folder): scripts used to filter target-group background points (tgb) and generate models. These results are mainly included in the supmat. 
   
-## Folders for the shared data
+## Folders with the shared data
 
 ### Input_locs_extracted_vars (main folder)
 Separated into folders for each species. Within each species folder there are three csv files (one for each study extent). The csv file has species scientific name, type (1=presence), and the extracted values of the climate variables used in the model under each presence point. **NOTE:** Due to data sharing agreements with various government agencies and researchers we are unable to share the lat and long locations of the input localities.   
